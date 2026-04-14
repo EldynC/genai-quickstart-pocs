@@ -33,7 +33,7 @@ This PoC demonstrates AI-powered real-time translation for communication scenari
                      ▼
          ┌───────────────────────┐
          │  Amazon Nova Sonic 2  │
-         │  (AWS Bedrock)        │
+         │  (Amazon Bedrock)     │
          │  Bidirectional Stream │
          └───────────────────────┘
 ```
@@ -43,7 +43,7 @@ This PoC demonstrates AI-powered real-time translation for communication scenari
 - **Backend**: Python 3.11+ with FastAPI, WebSockets, aws-sdk-bedrock-runtime
 - **Frontend**: React 18 + Vite + Tailwind CSS (main app) + Standalone HTML (2-party demo)
 - **AI Model**: Amazon Nova Sonic 2 (`amazon.nova-2-sonic-v1:0`)
-- **Cloud**: AWS Bedrock (us-east-1)
+- **Cloud**: Amazon Bedrock (us-east-1)
 
 ## Supported Languages
 
